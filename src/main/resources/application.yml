@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active: dev
+
+
+
+  mail: #邮箱配置
+        host: smtp.exmail.qq.com
+        username: ssp@kk-games.com
+        password: Ssp@123
+        properties:
+          mail:
+            smtp:
+              auth: true
+              starttls:
+                enable: true
+                required: true
+
+
+
+server:
+  port: 8081
+
+
